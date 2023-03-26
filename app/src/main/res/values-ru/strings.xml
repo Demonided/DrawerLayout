@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DrawerLayout</string>
+    <string name="open_lesson">Открыть список уроков</string>
+    <string name="open_list">DrawerLayout</string>
+    <string name="lesson_1">Урок 1</string>
+    <string name="lesson_2">Урок 2</string>
+    <string name="lesson_3">Урок 3</string>
+    <string name="lesson_4">Урок 4</string>
+    <string name="lesson_5">Урок 5</string>
+    <string name="lesson_6">Урок 6</string>
+    <string name="lesson_7">Урок 7</string>
+    <string name="lesson_8">Урок 8</string>
+    <string name="lesson_9">Урок 9</string>
+    <string name="lesson_10">Урок 10</string>
+    <string name="Hello">Привет</string>
+
+</resources>
