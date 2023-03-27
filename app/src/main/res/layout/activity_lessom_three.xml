@@ -7,35 +7,37 @@
     tools:context=".lesson_3.LessonThreeActivity">
 
     <Button
-        android:id="@+id/button6"
-        android:layout_width="match_parent"
+        android:id="@+id/bHide"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="100dp"
-        android:text="@string/sign_up"
+        android:layout_marginBottom="236dp"
         android:onClick="onClickSignUp"
+        android:text="@string/sign_up"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/bExit"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/bExit"
+        app:layout_constraintTop_toBottomOf="@+id/bExit" />
 
     <Button
         android:id="@+id/bExit"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:text="@string/sign_in"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="32dp"
         android:onClick="onClickSignIn"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
-        app:layout_constraintEnd_toEndOf="@+id/button6"
-        app:layout_constraintStart_toStartOf="@+id/button6" />
+        android:text="@string/sign_in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="TextView"
         android:textColor="@color/purple_200"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/bExit"
@@ -44,11 +46,12 @@
 
     <ImageView
         android:id="@+id/inAvatar"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_marginBottom="16dp"
+        android:src="@drawable/maks"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/tvInfo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:src="@drawable/maks" />
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

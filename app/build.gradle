@@ -4,11 +4,13 @@ plugins {
 }
 
 android {
-    buildFeatures {
-        viewBinding true
-    }
+
     namespace 'com.example.drawerlayout'
     compileSdk 33
+
+    buildFeatures {
+        viewBinding = true
+    }
 
     defaultConfig {
         applicationId "com.example.drawerlayout"

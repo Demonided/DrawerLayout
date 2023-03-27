@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lesson_4.LessonFourTestActivity">
+
+    <ImageView
+        android:id="@+id/imPhotoLast"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:layout_marginTop="25dp"
+        android:visibility="invisible"
+        android:src="@drawable/maks"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/edLogin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="@string/login"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/imPhotoLast"
+        app:layout_constraintStart_toStartOf="@+id/imPhotoLast"
+        app:layout_constraintTop_toBottomOf="@+id/imPhotoLast" />
+
+    <EditText
+        android:id="@+id/edName_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/edName_1"
+        app:layout_constraintStart_toStartOf="@+id/edName_1"
+        app:layout_constraintTop_toBottomOf="@+id/edName_1" />
+
+    <EditText
+        android:id="@+id/edPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/edLogin2"
+        app:layout_constraintStart_toStartOf="@+id/edLogin2"
+        app:layout_constraintTop_toBottomOf="@+id/edLogin2" />
+
+    <Button
+        android:id="@+id/bReady"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:text="@string/done"
+        android:onClick="onClickReady"
+        app:layout_constraintEnd_toEndOf="@+id/edPassword2"
+        app:layout_constraintStart_toStartOf="@+id/edPassword2"
+        app:layout_constraintTop_toBottomOf="@+id/edPassword2" />
+
+    <EditText
+        android:id="@+id/edName_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/name3"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/edName_2"
+        app:layout_constraintStart_toStartOf="@+id/edName_2"
+        app:layout_constraintTop_toBottomOf="@+id/edName_2" />
+
+    <EditText
+        android:id="@+id/edName_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/name2"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/edPassword2"
+        app:layout_constraintStart_toStartOf="@+id/edPassword2"
+        app:layout_constraintTop_toBottomOf="@+id/edPassword2" />
+
+    <Button
+        android:id="@+id/bAvatarka"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/avatar"
+        android:onClick="onClickAvatarka"
+        app:layout_constraintEnd_toEndOf="@+id/bReady"
+        app:layout_constraintStart_toStartOf="@+id/bReady"
+        app:layout_constraintTop_toBottomOf="@+id/imPhotoLast" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

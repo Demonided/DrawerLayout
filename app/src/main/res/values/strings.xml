@@ -16,7 +16,7 @@
     <string name="sign_in" translatable="false">Sign in</string>
     <string name="sign_up" translatable="false">Sign up</string>
     <string name="avatar" translatable="false">Avatar</string>
-    <string name="login" translatable="false">Lofin</string>
+    <string name="login" translatable="false">Login</string>
     <string name="password" translatable="false">Password</string>
     <string name="name" translatable="false">Имя</string>
     <string name="name2" translatable="false">Фамилия</string>
