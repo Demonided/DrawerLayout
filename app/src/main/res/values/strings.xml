@@ -12,6 +12,13 @@
     <string name="lesson_8">Урок 8</string>
     <string name="lesson_9">Урок 9</string>
     <string name="lesson_10">Урок 10</string>
+
+    <string name="title" translatable="false">Вычислить "С"</string>
+    <string name="result_info_pifagor" translatable="false">Результат: </string>
+    <string name="input_a" translatable="false">Введите значение \"а\" </string>
+    <string name="input_b" translatable="false">Введите значение \"b\" </string>
+    <string name="result_pifagor" translatable="false">Результат </string>
+
     <string name="Ok" translatable="false">OK</string>
     <string name="sign_in" translatable="false">Sign in</string>
     <string name="sign_up" translatable="false">Sign up</string>
