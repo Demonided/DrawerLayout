@@ -12,10 +12,13 @@
         android:theme="@style/Theme.DrawerLayout"
         tools:targetApi="31">
         <activity
+            android:name=".lesson_6.LessonTest6Activity"
+            android:exported="false" />
+        <activity
             android:name=".lesson_9.Lesson9Activity"
             android:exported="false" />
         <activity
-            android:name=".lesson_8.Lesoon8Activity"
+            android:name=".lesson_8.Lesson8Activity"
             android:exported="false" />
         <activity
             android:name=".lesson_7.Lesson7Activity"

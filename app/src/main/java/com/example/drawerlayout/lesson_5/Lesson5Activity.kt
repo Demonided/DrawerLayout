@@ -18,9 +18,13 @@ class Lesson5Activity : AppCompatActivity() {
 
     }
 
-//    fun onClickResultPifagor(v: View) {
-//        if (!isFieldEmpty())
-//    }
+    fun onClickResultPifagor(v: View) {
+        if (!isFieldEmpty()) {
+            val result = getString(R.string.result_info_pifagor) + getResult()
+            binding.resultInfoPifagor.text = result
+
+        }
+    }
 
     private fun isFieldEmpty(): Boolean {
         binding.apply {

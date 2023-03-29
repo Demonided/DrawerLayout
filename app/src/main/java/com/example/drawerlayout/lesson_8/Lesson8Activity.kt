@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.drawerlayout.databinding.ActivityLesoon8Binding
 
-class Lesoon8Activity : AppCompatActivity() {
+class Lesson8Activity : AppCompatActivity() {
     lateinit var binding: ActivityLesoon8Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {

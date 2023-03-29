@@ -71,36 +71,42 @@
             android:id="@+id/lesson_5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="openLesson5"
             android:text="@string/lesson_5" />
 
         <Button
             android:id="@+id/lesson_6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="openLesson6"
             android:text="@string/lesson_6" />
 
         <Button
             android:id="@+id/lesson_7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="openLesson7"
             android:text="@string/lesson_7" />
 
         <Button
             android:id="@+id/lesson_8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="openLesson8"
             android:text="@string/lesson_8" />
 
         <Button
             android:id="@+id/lesson_9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="openLesson9"
             android:text="@string/lesson_9" />
 
         <Button
             android:id="@+id/lesson_10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="openLesson10"
             android:text="@string/lesson_10" />
     </LinearLayout>
 
