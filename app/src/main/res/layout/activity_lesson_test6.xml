@@ -22,7 +22,7 @@
         android:id="@+id/edContext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="84dp"
         android:ems="10"
         android:hint="Введи что нибудь "
         android:inputType="textPersonName"
@@ -31,4 +31,35 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edNewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/edContext"
+        app:layout_constraintStart_toStartOf="@+id/edContext"
+        app:layout_constraintTop_toBottomOf="@+id/edContext" />
+
+    <ImageView
+        android:id="@+id/imNewImageView"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/edNewPassword"
+        app:layout_constraintStart_toStartOf="@+id/edNewPassword"
+        app:layout_constraintTop_toBottomOf="@+id/edNewPassword"
+        app:srcCompat="@drawable/dula" />
+
+    <Button
+        android:id="@+id/addImageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="картинка"
+        app:layout_constraintEnd_toEndOf="@+id/imNewImageView"
+        app:layout_constraintStart_toStartOf="@+id/imNewImageView"
+        app:layout_constraintTop_toBottomOf="@+id/imNewImageView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

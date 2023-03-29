@@ -8,6 +8,7 @@ import androidx.core.view.isVisible
 import com.example.drawerlayout.R
 import com.example.drawerlayout.databinding.ActivityLessomThreeBinding
 
+@Suppress("DEPRECATION")
 class LessonThreeActivity : AppCompatActivity() {
     lateinit var binding: ActivityLessomThreeBinding
     private var login: String = "empty"

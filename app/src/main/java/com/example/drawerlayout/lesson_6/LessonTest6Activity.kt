@@ -8,17 +8,18 @@ import com.example.drawerlayout.databinding.ActivityLessonTest6Binding
 
 class LessonTest6Activity : AppCompatActivity() {
     lateinit var binding: ActivityLessonTest6Binding
+    private var signState = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLessonTest6Binding.inflate(layoutInflater)
         setContentView(binding.root)
+        signState = intent.getStringExtra(Constance.TEXT_RESULT)!!
     }
 
     fun onClickTest6(v: View) {
         val i = Intent()
-        i.putExtra(Constance.TEXT_RESULT, binding.edContext.text.toString())
-        i.putExtra("Key1", binding.edContext.text.toString())
+        i.putExtra(Constance.TEXT_RESULT_KEY, binding.edContext.text.toString())
         setResult(RESULT_OK, i)
         finish()
     }
