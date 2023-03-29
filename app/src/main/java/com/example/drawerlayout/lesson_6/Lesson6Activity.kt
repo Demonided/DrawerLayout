@@ -1,13 +1,13 @@
 package com.example.drawerlayout.lesson_6
 
-import android.app.Activity
+
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
 import com.example.drawerlayout.databinding.ActivityLesson6Binding
 
 class Lesson6Activity : AppCompatActivity() {
@@ -35,6 +35,4 @@ class Lesson6Activity : AppCompatActivity() {
     fun onClickNewLesson6(v: View) {
         launcher?.launch(Intent(this, LessonTest6Activity::class.java))
     }
-
-
 }

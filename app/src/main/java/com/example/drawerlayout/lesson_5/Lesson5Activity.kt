@@ -8,6 +8,7 @@ import com.example.drawerlayout.databinding.ActivityLesson5Binding
 import kotlin.math.pow
 import kotlin.math.sqrt
 
+
 class Lesson5Activity : AppCompatActivity() {
     lateinit var binding: ActivityLesson5Binding
 
@@ -15,6 +16,7 @@ class Lesson5Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLesson5Binding.inflate(layoutInflater)
         setContentView(binding.root)
+
 
     }
 
@@ -43,5 +45,6 @@ class Lesson5Activity : AppCompatActivity() {
         }
 
         return sqrt((a.pow(2) + b.pow(2))).toString()
+
     }
 }
