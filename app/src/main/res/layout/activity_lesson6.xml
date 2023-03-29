@@ -7,12 +7,12 @@
     tools:context=".lesson_6.Lesson6Activity">
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/bPlainText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
-        android:text="Тыкни"
+        android:layout_marginBottom="340dp"
         android:onClick="onClickNewLesson6"
+        android:text="Тыкни"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -22,10 +22,53 @@
         android:id="@+id/tTextNewColback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="172dp"
+        android:layout_marginTop="56dp"
         android:text="Вернуть результат"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bNewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="жмякни"
+        android:onClick="onClickNewPassword"
+        app:layout_constraintEnd_toEndOf="@+id/bPlainText"
+        app:layout_constraintStart_toStartOf="@+id/bPlainText"
+        app:layout_constraintTop_toBottomOf="@+id/bPlainText" />
+
+    <Button
+        android:id="@+id/bImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="картинка"
+        android:onClick="onClickImageView"
+        app:layout_constraintEnd_toEndOf="@+id/bNewPassword"
+        app:layout_constraintStart_toStartOf="@+id/bNewPassword"
+        app:layout_constraintTop_toBottomOf="@+id/bNewPassword" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tTextNewColback" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:srcCompat="@drawable/dula" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
