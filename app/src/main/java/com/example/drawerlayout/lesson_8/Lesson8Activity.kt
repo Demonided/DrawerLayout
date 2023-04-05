@@ -41,5 +41,6 @@ class Lesson8Activity : AppCompatActivity() {
                 Toast.makeText(this, "Search", Toast.LENGTH_SHORT).show()
             }
         }
+        return true
     }
 }
