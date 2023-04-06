@@ -4,17 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lesson_9.Lesson9Activity">
+    tools:context=".lesson_14.Lesson14Activity">
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bNav"
-        android:layout_width="0dp"
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/purple_700"
-        app:itemIconTint="@drawable/bootom_nav_selector"
-        app:itemTextColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/lesson_9_menu" />
+        app:layout_constraintTop_toTopOf="parent"
+         />
 </androidx.constraintlayout.widget.ConstraintLayout>
