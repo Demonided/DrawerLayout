@@ -14,7 +14,7 @@ class LessonTest6Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLessonTest6Binding.inflate(layoutInflater)
         setContentView(binding.root)
-        signState = intent.getStringExtra(Constance.TEXT_RESULT)!!
+
     }
 
     fun onClickTest6(v: View) {
