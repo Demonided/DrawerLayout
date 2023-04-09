@@ -108,6 +108,41 @@
             android:layout_height="wrap_content"
             android:onClick="openLesson10"
             android:text="@string/lesson_10" />
+
+        <Button
+            android:id="@+id/lesson_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openLesson11"
+            android:text="@string/lesson_11" />
+
+        <Button
+            android:id="@+id/lesson_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openLesson12"
+            android:text="@string/lesson_12" />
+
+        <Button
+            android:id="@+id/lesson_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openLesson13"
+            android:text="@string/lesson_13" />
+
+        <Button
+            android:id="@+id/lesson_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openLesson14"
+            android:text="@string/lesson_14" />
+
+        <Button
+            android:id="@+id/lesson_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openLesson15"
+            android:text="@string/lesson_15" />
     </LinearLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -66,4 +66,34 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, com.example.drawerlayout.lesson_9.Lesson9Activity::class.java)
         startActivity(intent)
     }
+
+    fun openLesson10(v: View) {
+        val intent = Intent(this, com.example.drawerlayout.lesson_10.Lesson10Activity::class.java)
+        startActivity(intent)
+    }
+
+    fun openLesson11(v: View) {
+        val intent = Intent(this, com.example.drawerlayout.lesson_11.Lesson11Activity::class.java)
+        startActivity(intent)
+    }
+
+    fun openLesson12(v: View) {
+        val intent = Intent(this, com.example.drawerlayout.lesson_12.Lesson12Activity::class.java)
+        startActivity(intent)
+    }
+
+    fun openLesson13(v: View) {
+        val intent = Intent(this, com.example.drawerlayout.lesson_13.Lesson13Activity::class.java)
+        startActivity(intent)
+    }
+
+    fun openLesson14(v: View) {
+        val intent = Intent(this, com.example.drawerlayout.lesson_14.Lesson14Activity::class.java)
+        startActivity(intent)
+    }
+
+    fun openLesson15(v: View) {
+        val intent = Intent(this, com.example.drawerlayout.lesson_15.Lesson15Activity::class.java)
+        startActivity(intent)
+    }
 }

@@ -20,12 +20,12 @@
         android:id="@+id/buttonAdd"
         android:layout_width="280sp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:layout_marginBottom="8dp"
         android:text="AddSmail"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextSizeCheck" />
 
     <Button
         android:id="@+id/buttonClear"
