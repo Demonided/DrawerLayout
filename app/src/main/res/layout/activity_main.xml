@@ -32,6 +32,11 @@
             android:text="@string/open_lesson" />
     </LinearLayout>
 
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start">
+
     <LinearLayout
         android:layout_width="200dp"
         android:layout_height="match_parent"
@@ -143,6 +148,42 @@
             android:layout_height="wrap_content"
             android:onClick="openLesson15"
             android:text="@string/lesson_15" />
+
+        <Button
+            android:id="@+id/lesson_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openLesson16"
+            android:text="@string/lesson_16" />
+
+        <Button
+            android:id="@+id/lesson_17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openLesson17"
+            android:text="@string/lesson_17" />
+
+        <Button
+            android:id="@+id/lesson_18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openLesson18"
+            android:text="@string/lesson_18" />
+
+        <Button
+            android:id="@+id/lesson_19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openLesson19"
+            android:text="@string/lesson_19" />
+
+        <Button
+            android:id="@+id/lesson_20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openLesson20"
+            android:text="@string/lesson_20" />
     </LinearLayout>
+    </ScrollView>
 
 </androidx.drawerlayout.widget.DrawerLayout>
