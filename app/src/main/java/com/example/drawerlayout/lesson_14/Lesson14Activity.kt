@@ -2,8 +2,10 @@ package com.example.drawerlayout.lesson_14
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.animation.AnimationUtils
 import android.widget.EditText
 import android.widget.Toast
+import com.example.drawerlayout.R
 import com.example.drawerlayout.databinding.ActivityLesson14Binding
 
 const val PRACTICUM_EXAMPLE_PREFERENCES = "practicum_example_preferences"
@@ -34,6 +36,30 @@ class Lesson14Activity : AppCompatActivity() {
 
         restoreButton.setOnClickListener {
             editText.setText(sharedPrefs.getString(EDIT_TEXT_KEY, ""))
+        }
+
+        switchTheme()
+        switchTheme2()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        switchTheme()
+    }
+
+    private fun switchTheme() {
+        binding.themeSwitcher.setOnCheckedChangeListener { switcher, checked ->
+            val animation = AnimationUtils.loadAnimation(this, R.anim.switch_theme_alpha)
+            binding.themeSwitcher.startAnimation(animation)
+            (applicationContext as App).switchTheme(checked)
+        }
+
+        binding.themeSwitcher.isChecked = (applicationContext as App).darkTheme
+    }
+
+    private fun switchTheme2() {
+        binding.themeSwitcher2.setOnCheckedChangeListener { switcher, checked ->
+            (applicationContext as App).switchTheme(checked)
         }
     }
 }

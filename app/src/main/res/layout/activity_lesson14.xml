@@ -12,7 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        />
+        android:hint="Ведите_что-то"
+        android:minHeight="48dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,6 +38,22 @@
             android:text="Restore"
             />
     </LinearLayout>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/themeSwitcher"
+        android:text="Темная тема"
+        android:layout_marginHorizontal="60dp"
+        android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Switch
+        android:id="@+id/themeSwitcher2"
+        android:text="New_Tema"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 </LinearLayout>

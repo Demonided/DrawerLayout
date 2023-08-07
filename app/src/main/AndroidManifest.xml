@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".lesson_14.App"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -11,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DrawerLayout"
         tools:targetApi="31">
+        <activity
+            android:name=".lesson_16.Lesson16Activity"
+            android:exported="false" />
         <activity
             android:name=".lesson_15.Lesson15Activity"
             android:exported="false" />
@@ -76,10 +80,15 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
+
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>
+            android:value="ca-app-pub-3940256099942544~3347511713" />
     </application>
 
 </manifest>
