@@ -33,4 +33,14 @@
         android:text="constraint layout"
         />
 
+    <Button
+        android:id="@+id/newActivityMyFilm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newActivityConstraintLayout"
+        android:layout_alignStart="@id/addButton"
+        android:layout_alignEnd="@id/addButton"
+        android:text="My film"
+        />
+
 </RelativeLayout>

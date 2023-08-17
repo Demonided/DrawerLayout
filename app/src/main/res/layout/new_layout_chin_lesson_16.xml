@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
@@ -35,44 +36,8 @@
         android:text="View3"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/view2" />
-
-
-    <TextView
-        android:id="@+id/view31"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="view31"
-        android:background="@color/YellowButton"
-        app:layout_constraintHorizontal_chainStyle="spread"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="id/view32"
-        app:layout_constraintTop_toBottomOf="@id/view13"
-        />
-
-    <TextView
-        android:id="@+id/view32"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/YellowButton"
-        android:text="view32"
-        app:layout_constraintStart_toEndOf="@+id/view31"
-        app:layout_constraintEnd_toStartOf="@id/view33"
-        app:layout_constraintBottom_toBottomOf="@id/view31"
-        />
-
-    <TextView
-        android:id="@+id/view33"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="view 33"
-        android:layout_marginTop="16dp"
-        android:background="@color/YellowButton"
-        app:layout_constraintStart_toEndOf="@id/view32"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="@id/view32"
-        />
+        app:layout_constraintStart_toEndOf="@+id/view2"
+        tools:ignore="TextContrastCheck" />
 
     <!-- Spread inside цепь -->
     <TextView
@@ -170,10 +135,11 @@
         android:layout_height="wrap_content"
         android:background="@android:color/darker_gray"
         android:text="View12"
-        app:layout_constraintHorizontal_weight="1"
         app:layout_constraintBottom_toBottomOf="@+id/view11"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/view11" />
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/view11"
+        tools:ignore="TextContrastCheck" />
 
     <!-- Равновесная Weighted цепь -->
     <TextView

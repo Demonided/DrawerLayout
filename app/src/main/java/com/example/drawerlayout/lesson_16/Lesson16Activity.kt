@@ -38,6 +38,11 @@ class Lesson16Activity : AppCompatActivity() {
             val intent = Intent(this, NewConstraintLayoutActivity::class.java)
             startActivity(intent)
         }
+
+        binding.newActivityMyFilm.setOnClickListener {
+            val intent = Intent(this, PracticalJobFilmDescriptionActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun addNewButton() {
