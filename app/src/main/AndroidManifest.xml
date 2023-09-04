@@ -13,6 +13,27 @@
         android:theme="@style/Theme.DrawerLayout"
         tools:targetApi="31">
         <activity
+            android:name=".lesson_16.PracticalJobFilmDescriptionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lesson_16.NewConstraintLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lesson_16.NewRelativViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lesson_20.Lesson20Activity"
+            android:exported="false" />
+        <activity
+            android:name=".lesson_19.Lesson19Activity"
+            android:exported="false" />
+        <activity
+            android:name=".lesson_18.Lesson18Activity"
+            android:exported="false" />
+        <activity
+            android:name=".lesson_17.Lesson17Activity"
+            android:exported="false" />
+        <activity
             android:name=".lesson_16.Lesson16Activity"
             android:exported="false" />
         <activity

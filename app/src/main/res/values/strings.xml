@@ -43,4 +43,8 @@
 
     <string name="nothing_found" translatable="false">No Message</string>
     <string name="something_went_wrong" translatable="false">something_went_wrong</string>
+
+    <string name="movie_desc" translatable="false">Комедия, драмма</string>
+    <string name="movie_rating" translatable="false">IMDb 8.6/10</string>
+    <string name="description" translatable="false">Один парень со своей женой, поехал отдыхать на черное море. И на одной из экскурсия им встретилась обезьянка и орел.</string>
 </resources>
