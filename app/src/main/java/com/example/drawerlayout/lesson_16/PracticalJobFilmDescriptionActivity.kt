@@ -7,6 +7,6 @@ import com.example.drawerlayout.R
 class PracticalJobFilmDescriptionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_practical_job_film_description)
+        setContentView(R.layout.activity_practical_job_film_description_16)
     }
 }
